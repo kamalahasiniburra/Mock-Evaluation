@@ -1,0 +1,8 @@
+let emp = {
+    name: "Prakash",
+    details: {
+      department: "IT",
+      profile: { role: "Developer" }
+    }
+  };
+const role=emp.details?.profile?.role;  
